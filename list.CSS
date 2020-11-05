@@ -1,0 +1,69 @@
+P{
+   color:#222;
+    width: 400px;
+}
+
+.list_description {
+    border-bottom: 1px solid
+}
+
+
+.dis_list{
+    list-style: disc;
+}
+.circle_list{
+    list-style: circle;
+}
+.square_list{
+    list-style: square;
+}
+.none_bullet{
+    list-style: none;
+}
+
+.img_list li{
+    list-style: none;
+    background: url(%EA%B8%88%EB%B3%84.jpg) no-repeat;
+    background-size: 20px;
+    padding: 0 0 0 25px
+}
+
+prize li{
+    list-style: none;
+}
+
+prize li:nth-child(100+1){
+    background: url("%EA%B8%88%EB%B3%84.jpg") no-repeat;
+    background-size: 20px;
+    padding: 0 0 1px 25px
+}
+prize li:nth-child(100+2){
+    background: url("%EC%9D%80%EB%B3%84.jpg") no-repeat;
+    background-size: 20px;
+    padding: 0 0 1px 25px
+}prize li:nth-child(100+3){
+    background: url("%EC%B4%88%EB%A1%9D%EB%B3%84.jpg") no-repeat;
+    background-size: 20px;
+    padding: 0 0 1px 25px
+}
+ol li{
+    list-style: decimal-leading-zero;
+}
+
+
+.style_dl{
+    overflow: auto;
+    width: 400px;
+    height: 100px
+}
+
+.style_dl dt{
+    float: left;
+}
+
+.style_dl dd{
+    margin: 0 0 1em 0;
+}
+
+
+
