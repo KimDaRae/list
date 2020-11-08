@@ -39,3 +39,12 @@ span:active{
 #description{
     height: 600px;
 }
+
+#star{
+    width: 300px;
+    opacity: 0.5;
+}
+
+#star:hover{
+    opacity: 1;
+}
