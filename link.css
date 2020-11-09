@@ -2,6 +2,16 @@
     height: 1280px;
 }
 
+#contents{
+    border: 5px solid #ff9d2a;
+    width: 400px;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 2em;
+    
+}
+
 a{
     text-decoration: none;
     color: crimson;
@@ -23,6 +33,8 @@ a:target{
     background-color: darkgoldenrod;
     color: antiquewhite;
 }
+
+
 
 a:active{
     color: darkorange;
@@ -47,4 +59,10 @@ span:active{
 
 #star:hover{
     opacity: 1;
+}
+.none_list{
+    list-style: none;
+}
+.none_bullet{
+    list-style: none;
 }
